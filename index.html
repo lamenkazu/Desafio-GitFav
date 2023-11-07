@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitFav</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="app">
+        <header>
+            <img src="assets/logo.svg" alt="Logo GitFav">
+    
+            <div class="input-wrapper">
+                <label class="sr-only" for="find">Digite o Github username que quer favoritar</label>
+                <input id="find" type="text" placeholder="Digite o Github username que quer favoritar">
+                <button>
+                    <img src="assets/star.svg" alt="Simbolo Logo" class="icon">
+                    <img src="assets/star-hover.svg" alt="Simbolo Logo" class="icon-hover">
+                    Favoritar
+                </button>
+            </div>
+        </header>
+    
+        
+
+        <main>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Usuário</th>
+                            <th>Repositories</th>
+                            <th>Followers</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
+
+                    
+                    <tbody>
+                        
+                        
+                        
+                        
+                        
+                    </tbody>
+                    
+            
+                    
+                    
+                </table>
+                <div class="table-empty-advertise sr-only">
+                    <img src="assets/notFound.svg" alt="">
+                        <p>Nenhum favorito ainda</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
